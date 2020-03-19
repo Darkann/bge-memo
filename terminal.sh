@@ -2,7 +2,6 @@
 cd <chemin du dossier>                                            # se deplacer
 node <nom du fichier>                                             # lancer un scipt node
 
-
 #git
 git init                                                          # initialiser un projet git
 git add <nom du fichier/dossier>                                  # ajouter les modifications au prochain commit
