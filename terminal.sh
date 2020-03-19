@@ -16,8 +16,9 @@ git branch <nom de la branche> <branche a copier>                 # copie la bra
 git branch                                                        # liste les branches existante
 git merge <nom de la branche> - m "commentaire"                   # fusionne la branche nommé a l'interieur de la branche actuelle, en creant un commit
 git log --pretty=online --graph                                   # affiche l'historique des commits sous forme de graphe
-git remote                                                        #liste les depots distants de notre projet git
-git remote add<depot distant><adresse du depot>                   #ajoute in nouveau depot distant  (origin dans 99% des cas)
-git push <nom du depot><branche distante>                         #envoie la branche courante sur la branche distante du depot choisi
-git push -u <nom du depot><branche distante>                      #idem , mais parametre la branche locale pour correponfre a la branche distante
-git clone <adresse du depot> <nom du dossier>                     #telecharge la branche par defaut du depot choisi dans le dossier voulu
+git remote                                                        # liste les depots distants de notre projet git
+git remote add<depot distant><adresse du depot>                   # ajoute in nouveau depot distant  (origin dans 99% des cas)
+git push <nom du depot><branche distante>                         # envoie la branche courante sur la branche distante du depot choisi
+git push -u <nom du depot><branche distante>                      # idem , mais parametre la branche locale pour correponfre a la branche distante
+git clone <adresse du depot> <nom du dossier>                     # telecharge la branche par defaut du depot choisi dans le dossier voulu
+git pull <nom du depot><branche distante>                         # met a jour la branche actuelle avec les modifications effectués sur la branche distante 
