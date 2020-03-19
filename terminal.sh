@@ -13,3 +13,4 @@ git restore <nom du fichier / dossier>                            # remet le con
 git checkout <nom dune branche ou hash du commit>                 # deplace la tete de lecture (head) sur la branche ou sur la version choisi
 git branch <nom de la branche>                                    # créé une branche en copiant la branche actuelle
 git branch                                                        # liste les branches existante
+git merge <nom de la branche> - m "commentaire"                   #fusionne la branche nommé a l'interieur de la branche actuelle, en creant un commit
