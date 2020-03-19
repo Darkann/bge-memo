@@ -9,3 +9,5 @@ git commit -m "<message à attacher au commit>"                    # sauvegardé
 git status                                                        # affiche l'etat de mon projet a cet instant
 git log                                                           # affiche l'historique des commit
 git add.                                                          # rajouter tout le dossier d'un coup
+git restore <nom du fichier / dossier>                            #remet le contenu du fichier a l'état du dernier commit
+
