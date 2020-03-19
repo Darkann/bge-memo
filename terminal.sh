@@ -12,6 +12,7 @@ git add.                                                          # rajouter tou
 git restore <nom du fichier / dossier>                            # remet le contenu du fichier a l'état du dernier commit
 git checkout <nom dune branche ou hash du commit>                 # deplace la tete de lecture (head) sur la branche ou sur la version choisi
 git branch <nom de la branche>                                    # créé une branche en copiant la branche actuelle
+git branch <nom de la branche> <branche a copier>                 # copie la branche designé dans une nouvelle branche ( ex. git branch blabla origin/blabla)
 git branch                                                        # liste les branches existante
 git merge <nom de la branche> - m "commentaire"                   # fusionne la branche nommé a l'interieur de la branche actuelle, en creant un commit
 git log --pretty=online --graph                                   # affiche l'historique des commits sous forme de graphe
