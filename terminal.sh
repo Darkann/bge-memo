@@ -15,3 +15,5 @@ git branch <nom de la branche>                                    # créé une b
 git branch                                                        # liste les branches existante
 git merge <nom de la branche> - m "commentaire"                   # fusionne la branche nommé a l'interieur de la branche actuelle, en creant un commit
 git log --pretty=online --graph                                   # affiche l'historique des commits sous forme de graphe
+git remote                                                        #liste les depots distants de notre projet git
+git remote add<depot distant><adresse du depot>                   #ajoute in nouveau depot distant  (origin dans 99% des cas)
