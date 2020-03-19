@@ -17,3 +17,4 @@ git merge <nom de la branche> - m "commentaire"                   # fusionne la 
 git log --pretty=online --graph                                   # affiche l'historique des commits sous forme de graphe
 git remote                                                        #liste les depots distants de notre projet git
 git remote add<depot distant><adresse du depot>                   #ajoute in nouveau depot distant  (origin dans 99% des cas)
+git push <nom du depot><branche distante>                         #envoie la branche courante sur la branche distante du depot choisi
